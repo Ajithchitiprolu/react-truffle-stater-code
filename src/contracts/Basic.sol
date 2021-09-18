@@ -1,8 +1,8 @@
-pragma solidity ^0.8.7;
+pragma solidity >=0.4.22 <0.9.0;
 
 contract Basic{
-    public string name;
+    string public name;
     constructor() public{
-        name = 'Basic Contract'
+        name = 'Basic Contract';
     }
 }
